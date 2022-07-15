@@ -1,0 +1,71 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  position: absolute;
+}
+h2 {
+  text-align: center;
+}
+.box {
+  width: 1200px;
+  position: relative;
+  top: 40px;
+  left: 80px;
+  padding-top: 20px;
+  background-color: #fff;
+  border: 1px solid #222;
+}
+.search {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 80px;
+  margin-bottom: 20px;
+}
+.leftSearch {
+  display: flex;
+  /* align-items: ; */
+}
+.rightSearch {
+  display: flex;
+}
+hr {
+  width: 1200px;
+  margin: 0 auto;
+}
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.box .containerHolder {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.fruitList li {
+  list-style-type: disc;
+}
+ul li {
+  list-style-type: none;
+  padding: 10px 10px;
+}
+/* table footer */
+.bottom {
+  padding: 12px;
+  border-top: 1px solid #222;
+  background-color: rgba(255, 255, 255, 0.913);
+}
+.bottom h3 {
+  margin-right: 100px;
+  text-align: right;
+}
